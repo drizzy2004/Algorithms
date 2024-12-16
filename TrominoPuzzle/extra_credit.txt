@@ -1,0 +1,4 @@
+When we do the recurrence relation we get M(n) = 4M(n/4) + n
+Using the master theorem, we can calculate b = 4, a = 4, and d = 1
+When we go through the conditions, we see that a = b^d or (4 = 4)
+So this means the big O notation is O(n^4log(n)) --> O(nlog(n))
